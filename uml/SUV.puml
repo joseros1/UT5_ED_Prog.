@@ -1,0 +1,9 @@
+@startuml
+package com.ut5.ejerc {
+  class SUV {
+    - boolean offRoad
+    - double alturaLibre
+  }
+  Coche <|-- SUV
+}
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+package com.ut5.ejerc {
+  abstract class Moto {
+    - int cilindrada
+    - int peso
+    - double alturaAsiento
+    - TipoTransmision transmision
+    + double calcularRiesgo()
+  }
+  Vehiculo <|-- Moto
+}
+@enduml

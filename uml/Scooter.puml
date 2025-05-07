@@ -1,0 +1,8 @@
+@startuml
+package com.ut5.ejerc {
+  class Scooter {
+    - int espacioBajoAsiento
+  }
+  Moto <|-- Scooter
+}
+@enduml

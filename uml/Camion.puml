@@ -1,0 +1,12 @@
+@startuml
+package com.ut5.ejerc {
+  class Camion {
+    - double capacidadCarga
+    - int numEjes
+    - double longitudRemolque
+    - int potencia
+    + double calcularRiesgo()
+  }
+  Vehiculo <|-- Camion
+}
+@enduml

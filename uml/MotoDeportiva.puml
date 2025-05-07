@@ -1,0 +1,9 @@
+@startuml
+package com.ut5.ejerc {
+  class MotoDeportiva {
+    - double velMax
+    - boolean quickShifter
+  }
+  Moto <|-- MotoDeportiva
+}
+@enduml

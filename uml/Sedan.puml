@@ -1,0 +1,9 @@
+@startuml
+package com.ut5.ejerc {
+  class Sedan {
+    - double espacioInterior
+    - NivelConfort confort
+  }
+  Coche <|-- Sedan
+}
+@enduml

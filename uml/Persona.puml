@@ -1,0 +1,12 @@
+@startuml
+package com.ut5.ejerc {
+  class Persona {
+    - String nombreCompleto
+    - String dni
+    - int anioCarnet
+    - int anioNacimiento
+    + String getNombreCompleto()
+    + String getDni()
+  }
+}
+@enduml

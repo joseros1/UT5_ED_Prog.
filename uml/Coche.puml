@@ -1,0 +1,12 @@
+@startuml
+package com.ut5.ejerc {
+  abstract class Coche {
+    - int puertas
+    - TipoCombustible combustible
+    - int maletero
+    - Traccion traccion
+    + double calcularRiesgo()
+  }
+  Vehiculo <|-- Coche
+}
+@enduml

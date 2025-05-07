@@ -1,0 +1,10 @@
+@startuml
+package com.ut5.ejerc {
+  class Deportivo {
+    - double aceleracion
+    - int potencia
+    - boolean modoPista
+  }
+  Coche <|-- Deportivo
+}
+@enduml
