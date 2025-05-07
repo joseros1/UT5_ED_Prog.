@@ -9,4 +9,5 @@ Checklist de la tarea:
 - [x] Diagrama completado y exportado a SVG
 - [x] Insertado en este README
 - [x] (Opcional) Código Java subido en `src/`
+ ![Diagrama de clases](uml/diagrama_clases.svg)
 
