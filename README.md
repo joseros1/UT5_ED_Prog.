@@ -10,4 +10,3 @@ Checklist de la tarea:
 - [x] Insertado en este README
 - [x] (Opcional) Código Java subido en `src/`
 
-![Diagrama de clases](uml/diagrama_clases.svg)
